@@ -1,0 +1,43 @@
+{
+  "name": "dev-vagas",
+  "version": "1.0.0",
+  "description": "App para divulgar vagas no Twitter e no Telegram :sparkles:",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src",
+    "sync:db": "node ./src/db/sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onhernandes/dev-vagas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onhernandes/dev-vagas/issues"
+  },
+  "homepage": "https://github.com/onhernandes/dev-vagas#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "config": "^3.2.6",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^8.0.8",
+    "open": "^7.0.2",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.5",
+    "telegraf": "^3.36.0",
+    "twitter-lite": "^0.9.4"
+  }
+}
