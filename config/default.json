@@ -10,20 +10,10 @@
     "chatId": "@DevVagas",
     "token": ""
   },
-  "pgsql": {
-    "database": "devvagas",
-    "username": "devvagas",
-    "password": "12345678",
-    "host": "localhost"
-  },
   "github": {
     "allowedRepos": [
       "backend-br/vagas",
       "frontendbr/vagas"
     ]
-  },
-  "auth": {
-    "name": "",
-    "pass": ""
   }
 }
