@@ -28,7 +28,7 @@
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
-    "config": "^3.2.6",
+    "config": "^3.3.8",
     "open": "^7.0.2",
     "telegraf": "^3.36.0",
     "twitter-lite": "^0.9.4"
